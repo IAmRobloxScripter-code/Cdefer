@@ -32,7 +32,8 @@ int foo(int a) {
 
 int main(int argc, char** argv) {
   int return_value = 0;
-  $(foo(100), &return_value);
+  $(foo(100), &return_value); // must use $ to call, can also remove $return_value if function doesnt
+  // return anything or if you dont want to catch the value
   printf("%d\n", return_value); // will print 200
   return 0;
 }
