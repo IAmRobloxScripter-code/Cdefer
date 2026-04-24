@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
   printf("%d\n", return_value); // will print 200
   return 0;
 }
-
+```
 # Compile
 **gcc:** `gcc -o main main.c defer.c`
 <br>
