@@ -18,6 +18,8 @@ int main(int argc, char** argv) {
 ```
 
 # Compile
-`gcc -o main main.c defer.c`
+**gcc:** `gcc -o main main.c defer.c`
 <br>
-`clang -o main main.c defer.c`
+**clang:** `clang -o main main.c defer.c`
+<br>
+Or just run `make` in the project directory.
